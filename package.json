@@ -10,7 +10,7 @@
     "build-watch": "webpack --progress --colors --display-error-details --debug --display-reasons --watch",
     "start": "serve docs",
     "predeploy": "npm run build",
-"deploy": "gh-pages -d build"
+"deploy": "gh-pages -d docs"
   },
   "author": "Chaitanya Padol",
   "license": "ISC",

@@ -7,7 +7,7 @@
     "test": "jest --coverage --config ./jest.config.js",
     "build": "webpack",
     "build-watch": "webpack --progress --colors --display-error-details --debug --display-reasons --watch",
-    "start": "npm run build && serve docs",
+    "start": "serve docs",
     "heroku-postbuild": "npm run build"
   },
   "author": "Chaitanya Padol",

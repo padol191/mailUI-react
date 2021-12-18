@@ -24,11 +24,11 @@ http://padol191.github.io/mailUI-react
 > Note- Since mock data(JSON) is loaded from .js file, deleted mails are restored after refreshing the page
 ```
 # Working demo
-##email- admin@gmail.com
-##password- admin123
+## email- admin@gmail.com
+## password- admin123
 
-##email- test1@gmail.com
-##password- test123
+## email- test1@gmail.com
+## password- test123
 ## Technologies Used
 
 React.js

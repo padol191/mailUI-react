@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,regular,500,600,700);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", "Trebuchet MS", Verdana, sans-serif;
+}
+.login,
+.image {
+  min-height: 100vh;
+}
+.bg-image {
+  background-image: url("https://therichpost.com/wp-content/uploads/2021/02/login-split.jpg");
+  background-size: cover;
+  background-position: center center;
+}

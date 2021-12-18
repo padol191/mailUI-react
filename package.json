@@ -1,4 +1,5 @@
 {
+  "homepage": "http://padol191.github.io/mailUI-react",
   "name": "mailui",
   "version": "1.0.0",
   "description": "",
@@ -8,7 +9,8 @@
     "build": "webpack",
     "build-watch": "webpack --progress --colors --display-error-details --debug --display-reasons --watch",
     "start": "serve docs",
-    "heroku-postbuild": "npm run build"
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d build"
   },
   "author": "Chaitanya Padol",
   "license": "ISC",
@@ -24,6 +26,7 @@
     "babel-loader": "^8.0.6",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.4.2",
+    "gh-pages": "^3.2.3",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.3.0",
     "react": "^16.12.0",
